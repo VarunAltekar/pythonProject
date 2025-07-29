@@ -11,4 +11,5 @@ def isGreater(a, b):
 def lazyFunc(a,b):
     pass
 
+# executing function
 isGreater(2,3)

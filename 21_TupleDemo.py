@@ -1,3 +1,4 @@
+# 1. tuple declaration n definition
 tup = (1,3,5)
 print(type(tup), tup)
 
@@ -10,15 +11,19 @@ print(type(tup2), tup2, "Okk")
 tup3 = (1,4,3,"green")
 print(type(tup3), tup3)
 
+# 2. tuple index based access
 print(tup3[0])
 print(tup3[3])
 
+# 3. tuple negative index based access
 print(tup3[-1])
 print(tup3[-4])
 
+# 4. check for tuple value
 if "green" in tup3:
     print("Yes")
 
+# 5. tuple slicing
 tupNewSlice = tup3[1:3]
 print(tupNewSlice)
 

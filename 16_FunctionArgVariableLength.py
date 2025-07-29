@@ -1,11 +1,11 @@
-# 2 ways to acheive var len arg
-# arbitrary arg
+# 2 ways to achieve var len arg
+# 1. arbitrary arg ( index based )
 def name(*name):
     print("Hello", name[0], name[1], name[2])
 
 name("James", "Buchananes", "Barnes")
 
-# keyword arbitrary arg
+# 2. keyword arbitrary arg ( k-v pair based )
 def name2(**name):
     print("Hello",name["lname"],name["fname"],name["mname"])
 

@@ -3,6 +3,8 @@ timestamp = time.strftime('%H:%M:%S')
 print(type(timestamp))
 
 hour = time.strftime('%H')
+# Conditional operators
+# >, <, >=, <=, ==, !=
 
 if(6 <= int(hour) < 12):
     print("Good Morning")

@@ -35,3 +35,6 @@ print(dict)
 g = "5"
 print("first convert String to int")
 print(int(g) + 1)
+
+nahi = "Wrong"
+print(int(nahi)) # invalid literal for int() with base 10: 'Wrong'

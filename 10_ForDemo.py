@@ -1,4 +1,4 @@
-# iterate string
+# iterate string, we saw this in String program
 str1 = "abcdefgh"
 for k in str1:
     print(k)
@@ -7,7 +7,7 @@ for k in str1:
 for l in range(0,4):
     print(l)
 
-#iterate using len
+# iterate using len
 for p in range(0,len(str1)):
     print(p)
 

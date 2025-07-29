@@ -8,7 +8,7 @@ My Name is Anthony Gonzalves
 
 print(str1)
 
-# string with double quotes
+# For string with double quotes, use single quotes
 str2 = 'He said "I want new bat"'
 print(str2)
 
@@ -17,6 +17,6 @@ str3 = "abcdefgh"
 print(str3[0])
 print(str3[4])
 
-# for loop
+# ** for loop
 for char in str3:
     print(char)
